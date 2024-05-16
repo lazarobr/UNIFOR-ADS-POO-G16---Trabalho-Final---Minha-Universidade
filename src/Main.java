@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        // Criação de disciplinas
+        System.out.println("BEM-VIND AO 'MINHA UNIVERSIDADE'!");
+
+
+            // Criação de disciplinas
         Disciplina d1 = new Disciplina("DSC001", "PROGRAMAÇÃO ORIENT. OBJETOS", 1);
         Disciplina d2 = new Disciplina("DSC002", "RACIOCINIO LOGICO", 2);
         Disciplina d3 = new Disciplina("DSC003", "FUND. COMPUTAÇÃO", 3);

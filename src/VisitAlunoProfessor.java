@@ -8,7 +8,7 @@ class Aluno extends Pessoa {
     private int matricula;
 
     public Aluno(String cpf, String nome, int idade, int matricula) {
-        super(cpf,nome,idade);
+        super(cpf,nome,idade); //mostra atributos da superclasse Pessoa
         this.matricula = matricula;
     }
 
